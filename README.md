@@ -8,12 +8,11 @@ This project is an Amazon-inspired e-commerce web application built for educatio
 - Shopping cart management
 - User registration and login
 - Responsive design for desktop and mobile
-- Order checkout process
 
 ## Technologies Used
 
 - HTML, CSS, JavaScript
-- [Add frameworks/libraries if used, e.g., React, Node.js, Express, MongoDB]
+- frameworks used : React
 
 ## Getting Started
 
