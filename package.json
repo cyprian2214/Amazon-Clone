@@ -2,11 +2,29 @@
   "name": "amazonclone",
   "version": "1.0.0",
   "description": "Creating a front-end clone of Amazon using Vite involves building the user interface of the Amazon website using Vite, React components, HTML, CSS, and JavaScript. Here are the high-level steps you can follow to create a front-end clone of Amazon using Vite:",
+  "type": "module",
   "main": "vite.config.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.3",
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.9.1",
+    "react-slick": "^0.31.0",
+    "slick-carousel": "^1.8.1"
+  }
 }
