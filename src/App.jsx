@@ -5,6 +5,8 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import Context from "./ContextApi/Context";
 import Login from "./Compoenents/Login";
+import "./slick-fix.css";
+
 
 function App() {
   return (

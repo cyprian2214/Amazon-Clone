@@ -1,0 +1,15 @@
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+  color: black;
+}
+
+@font-face {
+  font-family: "slick";
+  src: url("/fonts/slick.woff") format("woff"),
+       url("/fonts/slick.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
